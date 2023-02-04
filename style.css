@@ -1,0 +1,119 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+}
+.container {
+  height: 25em;
+  width: 45em;
+  background: linear-gradient(180deg, #eb6841 90%, #ff6347);
+}
+.container {
+  display: flex;
+}
+
+/*info*/
+.info {
+  flex: 63;
+  padding: 0 1em 0 1em;
+  position: relative;
+}
+.info h1{
+    color: white;
+    margin-top: .6em;
+    margin-bottom: 1em;
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+}
+.bef{
+    width: 22.7em;
+    height: 1px;
+    background-color: white;
+    position: absolute;
+}
+.below-header{
+    top: 16%;
+}
+.below-header2{
+    top: 16.5%;
+}
+.par-point{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1em;
+}
+.info span{
+    color:white;
+    font-size: 1.38rem;
+    
+}
+.points{
+    width: .9em;
+    height: .9em;
+    border-radius: 50%;
+    background-color: #00D1D1;
+    margin-right: 5px;
+}
+button{
+    padding: .8em;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    color: #00D1D1;
+    font-weight: 700;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    font-size: 1rem;
+}
+.info-images{
+    display: flex;
+    justify-content: space-between;
+}
+.info-img{
+    width: 3.5em;
+    height:3.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.info-img span{
+    color: #710193;
+    font-size: 1.2rem;
+    font-weight: 800;
+    margin-bottom: 2px;
+}
+
+
+/*images*/
+.images {
+  flex: 37;
+  padding: 0.3em;
+  position: relative;
+}
+.img-container {
+  width: 12.9em;
+  height: 7.3em;
+  box-shadow: 6px 6px 10px black;
+  position: absolute;
+}
+img {
+  width: 100%;
+  height: 100%;
+}
+.amazon {
+  top: 2%;
+}
+.landing {
+  left: 15%;
+  top: 23%;
+}
+.portfolio {
+  bottom: 27%;
+  left: 0%;
+}
+.drifters {
+  bottom: 2%;
+  left: 16%;
+}
